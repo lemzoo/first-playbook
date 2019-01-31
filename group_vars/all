@@ -1,0 +1,5 @@
+deploy_user: deployer
+deploy_group: deployers
+deploy_user_password: helloWORLD123Edited
+# export AUTHORIZED_KEY=/Users/LamineBA/Documents/workspace/aws/ansible/ssh/introansible.pub
+authorized_key_filename: "{{ lookup('env', 'AUTHORIZED_KEY')}}"

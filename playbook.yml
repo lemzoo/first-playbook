@@ -1,0 +1,6 @@
+# Hight level instructions for which tasks to apply to which hosts
+- name: apply local configuraiton to servers listed in hosts
+  hosts: all
+  user: ec2-user
+  roles:
+    - common
